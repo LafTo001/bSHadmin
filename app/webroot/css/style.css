@@ -1,0 +1,460 @@
+body
+{
+    margin-top: 6px;
+    font-family: arial;
+    color: black;
+    background: url(/bshadmin/img/background.jpg);
+    background-position: center top;
+}
+
+body a
+{
+    border: 0px;
+    color: black;
+}
+
+#container
+{
+    width : 1250px;
+    border: 0px;
+    margin : auto;
+    background-color: white;
+}
+
+#role, #connect {
+    background-color: #044762;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#role a , #connect a {
+	color: white;
+}
+
+#role span , #connect span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#connect {
+	text-align: right;
+}
+
+#menu {
+	background-color: #a7cfe0;
+	height: 25px;
+	vertical-align: middle;
+}
+
+header {
+	height: 100px;
+	background-color: #c7d7de;
+}
+
+#banniere {
+    height: 100px;
+    width: 1250px;
+}
+
+nav {
+    width: 220px;
+    //margin: 10px;
+    border-style: solid solid solid solid;
+    border-color: #044762;
+    border-size: 1px;
+    border-width: 1px;
+    background-color: #DCE5EA;
+}
+
+nav li a {
+    height: 40px;
+    //voice-family: "\"}\""; 
+    voice-family: inherit;
+    text-decoration: none;
+}
+
+nav li a:link, nav li a:visited {
+    color: #044762;
+    display: block;
+    background: url(/bshadmin/img/menu-back.jpg);
+    padding: 10px 0 0 10px;
+}
+	
+nav li a:hover {
+    color: #044762;
+    background: url(/bshadmin/img/menu-back.jpg) 0 -40px;
+    padding: 10px 0 0 10px;
+}
+	
+section {
+    width: 1010px;
+    min-height: 605px;  
+}
+
+nav, #index, section, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+article p {
+    margin-left: 15px;
+    margin-right: 15px;  
+}
+
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: #044762;
+    height: 27px;
+    //vertical-align: middle;
+}
+
+footer img {
+    width: 3%;
+    padding: 5px;
+}
+
+footer span
+{
+    margin-top: 15px;
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+article {
+    width: 780px;
+    padding: 10px;
+}
+
+article p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+article img {
+    padding: 15px;
+}
+
+/* les tableau */
+
+#tabdonnee, #plage, #calendrier, .mois, .tableau-donnees
+{
+    margin: auto;
+    border-spacing: 1px;
+    border-collapse: separate;
+}
+
+#colhead {
+    background-color: #044762;
+    text-align: center;
+    color: white;
+}
+
+#tabdonnee th {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+    background-color: #044762;
+    text-align: center;
+    color: white;
+}
+
+#tabdonnee td {
+    font-size: 14px;
+    height: 22px;
+    padding: 2px;
+        
+}
+
+#tabdonnee tr:hover td, 
+#calendrier td:hover {
+    background-color : #c7d7de;
+}
+
+#tabdonnee th, #plage th
+{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#calendrier th
+{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+#plage td {
+    height: 11px;
+    font-size: 12px;
+    padding: 1px;
+}
+
+#heure td {
+    height: 25px;
+    font-size: 12px;
+}
+
+#tabdonnee td a, #plage td a {
+    color: black;
+}
+
+#tabdonnee th a, #plage th a {
+    color: white;
+}
+
+#calendrier
+{
+    width: 200px;
+}
+
+#calendrier th
+{
+	font-size: 12px;
+	height: 16px;
+}
+
+#calendrier td
+{
+	font-size: 12px;
+	height: 20px;
+}
+
+#calendrier a, h1 a
+{
+	color: black;
+	text-decoration: none;
+}
+
+#impair, 
+.occupe,
+#tabdonnee tr:nth-child(even) 
+{ 
+    background-color: #D2D3D5; 
+}
+
+#pair, 
+.non-occupe,
+#heure td,
+#tabdonnee tr:nth-child(odd) 
+{ 
+    background-color: #FAFAFA; 
+}
+
+#blanc {
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+#titreCentre
+{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#connectForm
+{
+    text-align: left;
+    font-size: 12px;
+}
+
+h1
+{
+    font-size: 22px;
+    margin-left: 15px;
+    color: #044762;
+}
+
+h2
+{
+    font-size: 18px;
+    margin-left: 15px;
+    color: #044762;
+}
+
+h3
+{
+    font-size: 16px;
+    text-align: center;
+    color: #044762;
+}
+
+span, label, #soustitre, p {
+    margin-left: 15px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+	
+aside {
+    width: 218px;
+    text-align: center;
+    float: right;
+    margin-right: 0px;
+    margin-top : 2px;
+    border-style: solid solid solid solid;
+    border-color: #044762;
+    border-size: 1px;
+    border-width: 1px;
+    background-color: #DCE5EA;
+}
+	
+.mois {
+	width:97%;
+}
+
+.occupe, .non-occupe
+{
+	width: 140px;
+	height: 100px;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+.date
+{
+	font-size: 13px;
+	font-weight: bold;
+	color: blue;
+	margin-left: 0px;
+}
+
+
+#infoparent
+{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+#reserve {
+    background-color: #DDDDDD; 
+    border: 1px solid #888888;
+    font-size: 12px;
+    padding: 1px;
+}
+
+#non-confirm {
+    background-color: #EEEEEE; 
+    border: 1px dashed #888888;
+    font-size: 12px;
+    font-style: italic;
+    padding: 1px;
+}
+
+#date {
+    display: inline-block;
+    width: 70px;
+}
+
+#reserve a, #non-confirm a {
+    color: #b72025;
+}
+
+.reservation
+{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px;
+    border-color: #044762;
+}
+
+#menuhead {
+    height: 30px;
+    border-width: 1px;
+    border-color: white;
+    //background-color: #c72229;
+    font-size: 13px;
+    background: -webkit-linear-gradient(#c72229, #800000, #a50007); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c72229, #800000, #a50007); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c72229, #800000, #a50007); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c72229, #800000, #a50007); /* Standard syntax */
+}
+
+#menuhead a, center {
+    color: white;
+    text-decoration: none;
+}
+
+#menuhead center {
+    font-weight: bold;
+}
+
+#menuhead td {
+    padding: 1px;
+}
+
+#menuhead td:hover {
+    font-size: 15px;
+}
+
+/* form elements */
+legend {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 14px;
+}
+
+.dropDown label {
+    margin-left:0px;
+}
+
+/*button, input[type=submit] {
+    border : solid 1px #000000;
+    border-radius : 3px;
+    moz-border-radius : 3px;
+    -webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+    -moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+    box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+    font-size : 15px;
+    color : #ffffff;
+    padding : 3px 17px;
+    background : #085370;
+    background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#085370), color-stop(100%,#044762));
+    background : -moz-linear-gradient(top, #085370 0%, #044762 100%);
+    background : -webkit-linear-gradient(top, #085370 0%, #044762 100%);
+    background : -o-linear-gradient(top, #085370 0%, #044762 100%);
+    background : -ms-linear-gradient(top, #085370 0%, #044762 100%);
+    background : linear-gradient(top, #085370 0%, #044762 100%);
+    filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#085370', endColorstr='#044762',GradientType=0 );
+    margin-left: 5px;
+}*/
+
+.message {
+    padding : 10px;
+    background-color : pink;
+    border : 2px black solid
+}
+
+#badMessage {
+    background-color : pink;
+}
+
+#goodMessage {
+    background-color : #47DA47;
+}
+
+.iconLineup {
+    visibility: hidden;
+}
+
+#tabdonnee tr:hover .iconLineup {
+    visibility: visible;
+}

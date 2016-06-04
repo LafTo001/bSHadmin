@@ -1,0 +1,81 @@
+body
+{
+    margin-top: 6px;
+    font-family: arial;
+    color: black;
+    background-position: center top;
+}
+
+#tabdonnee, #plage, #calendrier, .mois, .tableau-donnees
+{
+    margin: auto;
+    border-spacing: 1px;
+    border-collapse: separate;
+}
+
+#colhead {
+    background-color: #044762;
+    text-align: center;
+    color: white;
+}
+
+#calendrier th
+{
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+
+#calendrier
+{
+    width: 200px;
+}
+
+#calendrier th
+{
+	font-size: 12px;
+	height: 16px;
+}
+
+#calendrier td
+{
+	font-size: 12px;
+	height: 20px;
+        text-align: center;
+}
+
+#calendrier td:hover {
+    background-color : #c7d7de;
+}
+
+#calendrier a, h1 a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#impair, .occupe { 
+    background-color: #D2D3D5; 
+}
+
+#pair, .non-occupe, #heure td { 
+    background-color: #F8F8F8; 
+}
+
+#blanc {
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+#today {
+    background: -webkit-linear-gradient(#c72229, #800000, #a50007); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#c72229, #800000, #a50007); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#c72229, #800000, #a50007); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#c72229, #800000, #a50007); /* Standard syntax */
+    color: white;
+}
+
+#today a {
+    color: white;
+}

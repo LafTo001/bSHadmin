@@ -1,0 +1,206 @@
+body
+{
+    margin-top: 6px;
+    font-family: arial;
+    color: black;
+    background: url(/bshadmin/img/background.jpg);
+    background-position: center top;
+}
+
+body a
+{
+    border: 0px;
+    color: black;
+}
+
+#container
+{
+    width : 1025px;
+    border: 0px;
+    margin : auto;
+    background-color: white;
+}
+
+#role, #connect {
+    background-color: #044762;
+    height: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#role a , #connect a {
+	color: white;
+}
+
+#role span , #connect span {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#connect {
+	text-align: right;
+}
+
+#menu {
+	background-color: #a7cfe0;
+	height: 25px;
+	vertical-align: middle;
+}
+
+header {
+	height: 170px;
+	background-color: #c7d7de;
+}
+
+#banniere {
+    height: 170px;
+    width: 1250px;
+}
+	
+section {
+    width: 1010px;
+    min-height: 605px;  
+}
+
+nav, #index, section, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer
+{
+    text-align: center;
+    color: white;
+    background-color: #044762;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/* les tableau */
+
+#tabdonnee, #plage, #calendrier, .mois, .tableau-donnees
+{
+    margin: auto;
+    border-spacing: 0px;
+    //border-collapse: separate;
+}
+
+#colhead {
+    background-color: #044762;
+    text-align: center;
+    color: white;
+}
+
+#tabdonnee tr {
+    height: 40px;
+}
+
+#tabdonnee th {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+    //background-color: #044762;
+    text-align: center;
+    //color: white;
+    border: 1px solid black;
+}
+
+#tabdonnee td {
+    font-size: 15px;
+    height: 20px;
+    padding: 0px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#tabdonnee th, #plage th
+{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#tabdonnee td a, #plage td a {
+    color: black;
+}
+
+#tabdonnee th a, #plage th a {
+    color: white;
+}
+
+#impair, 
+.occupe,
+table tr:nth-child(odd) 
+{ 
+    background-color: #D2D3D5; 
+}
+
+#pair, 
+.non-occupe,
+table tr:nth-child(even) 
+{ 
+    background-color: #F8F8F8; 
+}
+
+#blanc {
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+h1
+{
+    font-size: 22px;
+    margin-left: 15px;
+    //color: black;
+}
+
+h2
+{
+    font-size: 18px;
+    margin-left: 15px;
+    //color: #044762;
+}
+
+h3
+{
+    font-size: 16px;
+    text-align: center;
+    //color: #044762;
+}
+
+span, label, #soustitre, p {
+    margin-left: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+	
+aside {
+    width: 218px;
+    text-align: center;
+    float: right;
+    margin-right: 0px;
+    margin-top : 2px;
+}
+
+#titre {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#recu td {
+    font-size: 20px;
+}
+
+#logo {
+    width: 150px;
+    vertical-align: middle;
+}
